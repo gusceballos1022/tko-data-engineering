@@ -70,6 +70,7 @@ if __name__ == "__main__":
     # Add the utils package to our path and import the snowpark_utils function
     import os, sys
     current_dir = os.getcwd()
+    print(current_dir)
     parent_dir = os.path.dirname(current_dir)
     sys.path.append(parent_dir)
 
