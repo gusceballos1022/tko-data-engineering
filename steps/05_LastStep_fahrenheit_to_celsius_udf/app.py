@@ -17,6 +17,9 @@ def main(temp_f: float) -> float:
 
 # This is a change to the code 
 
+def main(temp_f: float) -> float:
+    return (float(temp_f) - 32) * (5/9)
+
 # For local debugging
 # Be aware you may need to type-convert arguments if you add input parameters
 if __name__ == '__main__':
